@@ -566,3 +566,63 @@ button.bottom-btn {
 .final-main {
 	margin-left: 156px;
 }
+
+.about-description {
+	height: 232px;
+	width: 1124px;
+	font-family: "PT Sans";
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 2%;
+}
+
+.about-description span {
+	color: #DC3636;
+}
+
+#see-faq {
+	margin-left: 66px;
+}
+
+.ploicy-description {
+	font-family: "PT Sans";
+	font-size: 18px;
+	line-height: 28px;
+	height: 58px;
+	width: 1127px;
+	margin-bottom: 36px;
+}
+
+.policies {
+	display: flex;
+	width: 1127;
+}
+
+.policy-class {
+	height: 141px;
+	width: 264px;
+	font-family: "PT Sans";
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 2%;
+	font-weight: 400;
+	margin-bottom: 90px;
+}
+
+.policy-class span {
+	color: #DC3636;
+}
+
+#policy-two,
+#policy-three,
+#policy-four {
+	margin-left: 23px;
+}
+
+.final-heading {
+	font-family: "Montserrat";
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 2%;
+	color: #434343;
+}
