@@ -150,11 +150,6 @@ button.bottom-btn {
 
  /* Section 3 */
 
- .grey-wrap {
-	width: 100%;
-	background-color: #ECECEC;
-	position:absolute
- }
 
  .description {
 	width: 100%;
@@ -311,14 +306,18 @@ button.bottom-btn {
 
 /* Similar classes section */
 .similar-classes {
+    height: 262px;
+    width: 1127px;
 
-	height: 262px;
-	width: 1127px;
-	margin: 27px 159px 59px 154px;
-	background-color: #FFFFFF;
+    margin-left: 154px;
+    margin-top: 27px;
+    margin-right: 159px;
+    margin-bottom: 0;
 
-	padding-top: 41px;
-	padding-left: 38px;
+    background-color: #FFFFFF;
+
+    padding-top: 41px;
+    padding-left: 38px;
 }
 
 .similar-classes h3 {
@@ -341,13 +340,21 @@ button.bottom-btn {
 	Hero Section CSS 
 **********************/
 
+.grey-wrap {
+    width: 100%;
+    background-color: #ECECEC;
+    padding-top: 39px;
+    padding-bottom: 49px;
+    box-sizing: border-box;
+}
+
 .hero-section {
-	height: 385px;
-	width: 1125px;
-	background-color: white;
-	margin-left: 154px;
-	margin-right: 161px;
-	margin-top: 39px;
+    height: 385px;
+    width: 1125px;
+    background-color: white;
+    margin-left: 154px;
+    margin-right: 161px;
+    margin-top: 0;
 }
 
 .hero-container {
@@ -552,3 +559,10 @@ button.bottom-btn {
 	color: #DC3636;
 }
 
+/****************
+	Final main section
+*****************/
+
+.final-main {
+	margin-left: 156px;
+}
