@@ -228,6 +228,9 @@ button.bottom-btn {
 }
 
 .instructor button {
+	height: 44px;
+	width: 202px;
+	border: 1px solid #DC3636;
 	margin-left: 37px;
 	background-color: #FFFFFF;
 	border-radius: 28px;
@@ -308,30 +311,28 @@ button.bottom-btn {
 
 /* Similar classes section */
 .similar-classes {
-	max-width: 1127px;
-	padding: 0px 159px 338px 154px;
-	background-color: #FFFFFF;
-	width: 1127px;
-	height: 262px;
-	top: 1927px;
-	left: 154px;
-	margin-left: 154px;
-	padding-top: 41px;
 
+	height: 262px;
+	width: 1127px;
+	margin: 27px 159px 59px 154px;
+	background-color: #FFFFFF;
+
+	padding-top: 41px;
+	padding-left: 38px;
 }
 
 .similar-classes h3 {
 	font-size: 24px;
 }
 
-.col {
-	font-size: 18px;
-}
 
 .similar-classes-container {
 	display: flex;
-	
+		
+}
 
+.col span {
+	color: #DC3636;
 }
 
 
