@@ -626,3 +626,76 @@ button.bottom-btn {
 	letter-spacing: 2%;
 	color: #434343;
 }
+
+footer {
+	height: 411px;
+	width: 1442px;
+	background-color: #434343;
+}
+
+.footer-container{
+	margin-left: 139px;
+	margin-right: 123px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left {
+	margin-top: 118px;
+}
+
+#slash {
+	color: #FFFFFF;
+	font-family: "PT Sans";
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 5%;
+	margin-bottom: 52px;
+}
+
+h4 {
+	color: #FFFFFF;
+	font-family: "PT Sans";
+	font-size: 21px;	
+	line-height: 28px;
+	letter-spacing: 2%;
+}
+
+.yellow-text {
+	color: #F39B4E;
+	font-family: "PT Sans";
+	font-size: 14px;
+	line-height: 32px;
+	letter-spacing: 4%;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-family: "PT Sans";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1%;
+	margin-top: 45px;
+}
+
+.footer-right {
+	margin-top: 52px;
+}
+
+.subscribe-btn {
+	height: 52px;
+	width: 348px;
+	border-radius: 28px;
+	background-color: #FFFFFF;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.subscribe {
+	height: 46px;
+	width: 113px;
+	padding: 8px 24px;
+	background-color: #F39B4E;
+	border-radius: 28px;
+}
